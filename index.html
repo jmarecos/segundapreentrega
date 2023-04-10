@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Segurola y Hababa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="js/class.compra.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Segurola y Habana</h1>
+        <h2>Cotizador de seguros 🚘👨‍👩‍👦‍👦 🏡 online.</h2>
+    </header>
+    <main>
+        <div>
+            <h3>Bienvenidos al cotizador de seguros del diez!.</h3>
+            <h4>Que seguro desea contratar:</h4>
+            <ol>
+                <li>Vivienda</li>
+                <li>Local comercial</li>
+                <li>Oficina / Consultorio</li>
+                <li>Automovil</li>
+                <li>lancha</li>
+                <li>celulares y laptops</li>
+            </ol>
+            <input type="number" placeholder="¿Metros cuadrados?" min="20" max="500">
+            <p>¿Tiene alarma?</p>
+            <input type="number" placeholder="¿Que modelo es su auto?" min="2010" max="2023">
+            <p>¿Tiene alarma?</p>
+            <label for="alarmaSi">
+                <input type="radio" name="alarma" id="alarmaSi">
+                Sí 
+            </label>
+            <label for="alarmaNo">
+                <input type="radio" name="alarma" id="alarmaNo">
+                No 
+            </label>
+        </div>
+        <div class="div-cotizar">
+            <button class="button">COTIZAR</button>
+            
+        </div>
+    </main>
+</body>
+</html>
